@@ -1,0 +1,21 @@
+.bg-pink{
+    background-color: #ff2d68;
+}
+ .text-pink{
+    color: #ff2d68;
+}
+.form-check-input:checked {
+    background-color: #ff2d68;
+    border-color: #ff2d68;
+}
+.cursor-pointer{
+    cursor: pointer !important;
+}
+ul li.checked {
+    text-decoration: line-through;
+}
+@media(max-width:768px){
+    .w-sm-75{
+        width: 75% !important;
+    }
+}

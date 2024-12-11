@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" >
+    <title>To-do task</title>
+  </head>
+  <body class="bg-pink">
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-center vh-100">
+            <div class="w-25 w-sm-75">
+                <h4 class="text-white text-center">TO-DO LIST</h4>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control rounded-0 border-0" placeholder="add new task" style="box-shadow: none;outline: 0;" id="myInput" >
+                    <button class="btn bg-white text-primary rounded-0" type="button" id="button-addon2" onclick="addtask()" onkeypress="addtask()" style="box-shadow: none;">ADD</button>
+                </div>
+                <ul style="list-style: none;" class="bg-white text-muted px-3 pb-3" id="parentDiv">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
